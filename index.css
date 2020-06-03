@@ -21,6 +21,13 @@ html {
 
 body {
     font-size: 1.6rem;   /* set the front-size to 16px */
+    max-width: 1065px;
+    min-width: 740px;
+    margin: 0 auto;
+}
+
+strong {
+    font-weight: 700;
 }
 
 nav.nav-bar {
