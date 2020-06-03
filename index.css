@@ -1,0 +1,24 @@
+/* Reset */
+
+* {
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline;  
+
+    /* tools for debug */
+    border:1px solid grey
+}
+
+/* Set the font-size to 10px as 1 rem*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;   /* set the front-size to 16px */
+}
+
