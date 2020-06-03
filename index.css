@@ -16,9 +16,37 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
     font-size: 1.6rem;   /* set the front-size to 16px */
 }
 
+nav.nav-bar {
+    width: 100%;
+    text-align: center;
+}
+
+/* btn style*/
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    width: 115px;
+    padding: 8px 10px;
+    text-align: center;
+    margin: 30px 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-red {
+    background-color: #FF764E;
+}
+.btn-blue {
+    background-color: #5ED3EB;
+}
+.btn-yellow {
+    background-color: #FFCD69;
+}
