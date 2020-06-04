@@ -58,6 +58,12 @@ nav.nav-bar {
     background-color: #FFCD69;
 }
 
+.btn:hover {
+    transform: translate(0, -5px);
+    box-shadow: 3px 5px lightgray;
+    transition-duration: 500ms;
+}
+
 /* Header */
 
 header,
@@ -74,6 +80,11 @@ section {
     margin: 1rem;
 }
 
+.header-image:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
 .header-text{
     text-align: center;
     display: inline-block;
@@ -86,6 +97,14 @@ section {
     display: inline-block;
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+}
+
+.header-text-one:hover,
+.header-text-second:hover,
+.header-text-third:hover {
+    transform: translate(0, -5px);
+    text-shadow: 5px 5px rgb(230, 230, 230);
+    transition-duration: 500ms;
 }
 
 .header-text-second {
@@ -108,16 +127,26 @@ section {
     margin: 2rem;
 }
 
+.section-about:hover {
+    background-color: #5ED3EB;
+    transition-duration: 500ms;
+}
+
 /* section-recommend */
 
 .section-recommend img {
     width: 10%;
-    margin: 1rem;
+    margin: 1rem;           /* img do not need margin to center*/
 }
 .section-recommend p {
     width: 20%;
-    margin: 1rem auto;
+    margin: 1rem auto;     /* this did the trick to center the text */
     font-size: 1rem;
+}
+
+.section-recommend-card:hover {
+    transform: scale(1.2);
+    transition-duration: 500ms;
 }
 
 /* section-footer */
@@ -127,9 +156,12 @@ section {
     background-color: #F9E7DC;
 }
 
+/* combined object-fit and object-position to have the pic cropped and positioned */
+
 .footer-img {
     width: 100%;
     object-fit: cover;
     object-position: top;
     height: 27rem;
 }
+
